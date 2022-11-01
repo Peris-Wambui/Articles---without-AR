@@ -13,6 +13,10 @@ class Magazine
   def self.all
     @@all
   end
+  
+  def contributors
+    # filters from articles 
+  end
 
 
 end
