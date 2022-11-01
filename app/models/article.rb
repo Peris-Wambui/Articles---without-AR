@@ -21,3 +21,5 @@ end
 # article1 = Article.new(author1, magazine1, "The Unbowed")
 # article1.title
 # Article.all
+# article2=Article.new(author1, magazine1,"I love me")
+# article3= Article.new(at1,mag2,"Hey")

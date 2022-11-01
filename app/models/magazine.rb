@@ -25,3 +25,5 @@ end
 # magazine1 = Magazine.new("Unbowed","Historical book")
 # magazine1.name
 # magazine1.category
+# magazine2 = Magazine.new("Mag2","Cat1")
+# magazine1.contributors
