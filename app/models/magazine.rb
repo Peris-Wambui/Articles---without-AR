@@ -16,6 +16,8 @@ class Magazine
   
   def contributors
     # filters from articles 
+    Article.all.filter{|article|article.magazine.name==@name}
+    .map{|article|article.author}.uniq
   end
 
 
