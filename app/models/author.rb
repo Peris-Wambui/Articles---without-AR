@@ -1,5 +1,5 @@
 class Author
-  attr_accessor :name
+  # attr_accessor :name
   attr_reader :name
 
 
@@ -9,8 +9,8 @@ class Author
 
   def articles
     # filter from all articles
-    Article.all.filter{|article|
-    article.author==@name}
+    Article.all.select{|article|
+    article.author==self}
   end
 
   def magazines

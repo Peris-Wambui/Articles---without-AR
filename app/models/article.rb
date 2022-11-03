@@ -1,5 +1,6 @@
 class Article
-    attr_reader:magazine, :title
+    attr_reader :author, :magazine, :title
+
     @@all =[]
     def initialize(author, magazine, title)
         @author =(author)
@@ -11,9 +12,9 @@ class Article
     def self.all
         @@all
     end
-    def author
-        @author.name
-    end
+    # def author
+    #     @author.name
+    # end
 
 end
 # author1 = Article.new("The Unbowed")
